@@ -2,6 +2,7 @@
     "name": "mhassan654/licensing-connector",
     "description": "Laravel connector for licensing server package",
     "type": "library",
+    "version": "1.0.0",
     "require": {
         "mockery/mockery": "1.4",
         "orchestra/testbench": "7.0",

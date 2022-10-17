@@ -36,7 +36,7 @@ class ConnectorService
     public function validateLicense(array $data = []): bool
     {
         if ($this->accessToken) {
-            $url = Config::get('license-connector.license_server_url') . '/api/license-server/license';
+            $url = Config::get('licensing-connector.license_server_url') . '/api/license-server/license';
 
             $response = Http::withHeaders([
                 'x-host' => Config::get('app.url'),
@@ -75,7 +75,7 @@ class ConnectorService
             return $accessToken;
         }
 
-        $url = Config::get('license-connector.license_server_url') . '/api/license-server/auth/login';
+        $url = Config::get('licensing-connector.license_server_url') . '/api/license-server/auth/login';
 
         // dd(Config::get('app.url'));
 

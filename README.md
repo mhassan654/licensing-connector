@@ -9,7 +9,7 @@
 
 ⚠️ This package is under active development and is not yet stable. There may be some changes in later versions.
 
-License Connector is continous integration tool for [License Server](https://github.com/mhassan654/license-server) package. This package is using for connect your Laravel project with License Server.
+License Connector is continous integration tool for [License Server](https://github.com/mhassan654/licensing-server) package. This package is using for connect your Laravel project with License Server.
 
 ## Installation (for Client App)
 
@@ -19,12 +19,12 @@ Get via composer
 
 `composer require mhassan654/license-connector`
 
-Configs are very important. You can find them in [license-connector.php](config/license-connector.php) file. You should read all configs and configure for your needs.
+Configs are very important. You can find them in [license-connector.php](config/licensing-connector.php) file. You should read all configs and configure for your needs.
 
 ```bash
 #publish configs
 
-php artisan vendor:publish --tag=license-connector-configs
+php artisan vendor:publish --tag=licensing-connector-configs
 ```
 
 ## Validate License
@@ -32,7 +32,7 @@ php artisan vendor:publish --tag=license-connector-configs
 As you can see, this validation process is very simple and anyone is can break this license flow.
 
 ```php
-use Mhassan654\LicenseConnector\Services\ConnectorService;
+use Mhassan654\LicensingConnector\Services\ConnectorService;
 
 ...
 
@@ -60,15 +60,15 @@ $isLicenseValid = $connectorService->validateLicense($customData);
 ⚠️ Please don't confuse it with ioncube or similar source code encryption tools.
 
 
-[badge_downloads]:      https://img.shields.io/packagist/dt/mhassan654/license-connector.svg?style=flat-square
+[badge_downloads]:      https://img.shields.io/packagist/dt/mhassan654/licensing-connector.svg?style=flat-square
 
-[badge_license]:        https://img.shields.io/packagist/l/mhassan654/license-connector.svg?style=flat-square
+[badge_license]:        https://img.shields.io/packagist/l/mhassan654/licensing-connector.svg?style=flat-square
 
-[badge_stable]:         https://img.shields.io/github/v/release/mhassan654/license-connector?label=stable&style=flat-square
+[badge_stable]:         https://img.shields.io/github/v/release/mhassan654/licensing-connector?label=stable&style=flat-square
 
 [badge_unstable]:       https://img.shields.io/badge/unstable-dev--main-orange?style=flat-square
 
 [link_license]:         LICENSE
 
-[link_packagist]:       https://packagist.org/packages/mhassan654/license-connector
+[link_packagist]:       https://packagist.org/packages/mhassan654/licensing-connector
 
