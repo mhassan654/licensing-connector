@@ -1,4 +1,4 @@
-# Laravel Theme Store
+# Laravel Licensing connector
 
 <!-- [![EgoistDeveloper Laravel License Connector](https://preview.dragon-code.pro/EgoistDeveloper/License-Connector.svg?brand=laravel)](https://github.com/mhassan654/license-connector) -->
 
