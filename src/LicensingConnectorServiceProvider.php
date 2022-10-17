@@ -28,7 +28,7 @@ class LicensingConnectorServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(Router $router): void
     {
         $this->bootPublishes();
 
@@ -43,7 +43,7 @@ class LicensingConnectorServiceProvider extends ServiceProvider
         // configs
         $this->publishes([
             __DIR__ . '/../config/licensing-connector.php' => $this->app->configPath('licensing-connector.php'),
-        ], 'license-connector-configs');
+        ], 'licensing-connector-configs');
     }
 
     /**
