@@ -17,7 +17,7 @@ Publish store migrations
 
 Get via composer
 
-`composer require mhassan654/license-connector`
+`composer require mhassan654/licensing-connector`
 
 Configs are very important. You can find them in [license-connector.php](config/licensing-connector.php) file. You should read all configs and configure for your needs.
 
