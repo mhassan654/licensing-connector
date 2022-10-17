@@ -1,0 +1,23 @@
+{
+    "name": "mhassan654/licensing-connector",
+    "description": "Laravel connector for licensing server package",
+    "type": "library",
+    "require": {
+        "mockery/mockery": "1.4",
+        "orchestra/testbench": "7.0",
+        "phpunit/phpunit": "9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mhassan654\\LicensingConnector\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muwonge Hassan",
+            "email": "hassansaava@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
